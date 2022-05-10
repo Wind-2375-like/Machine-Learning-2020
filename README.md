@@ -1,6 +1,8 @@
 # ML 2020: Readme
 
-本着不重复造轮子的原则, 在他人的笔记基础上进行修改.
+中文笔记, 本着不重复造轮子的原则, 在他人的笔记基础上进行修改.
+
+Notes are written in Chinese. I modified others' notes to be my notes for I don't want to build the notes from zero.
 
 ## Reference
 
