@@ -24,10 +24,10 @@
 可以用 $y=b+wx$ 拟合，因此需要解方程：
 
 $$
-\begin{matrix}b
- &+  &w  &=  &1 \\b
- &+  &2w  &=  &2 \\b
- &+  &3w  &=  &2
+\begin{matrix}
+  b &+ &w  &= &1 \\
+  b &+ &2w  &= &2 \\
+  b &+ &3w  &= &2
 \end{matrix}
 $$
 
@@ -35,14 +35,18 @@ $$
 
 $$
 \begin{bmatrix}
-1 &1 \\1
- &2 \\1
- &3
-\end{bmatrix}\begin{bmatrix}
-b\\w
-\end{bmatrix}=\begin{bmatrix}
-1\\2
-\\2
+  1 & 1 \\
+  1 & 2 \\
+  1 & 3
+\end{bmatrix}
+\begin{bmatrix}
+  b\\
+  w
+\end{bmatrix}=
+\begin{bmatrix}
+  1\\
+  2\\
+  2
 \end{bmatrix}
 $$
 
