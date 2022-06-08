@@ -101,10 +101,6 @@ $$
 
 而且想一想直观解释，好像有点问题，步数没那么大还好，大了之后分母的平方和越累积越大，到时候 lr 就会巨小，无论 g 多大可能都顶不住。其实这正是 Adagrad 的问题。<span class="heimu" title="你知道的太多了">所以没看到有人现在用 Adagrad 的 lol</span>
 
-结论1-1：梯度越大，就跟最低点的距离越远。
-
-这个结论在多个参数的时候就不一定成立了。
-
 ## Tip 2: Stochastic Gradient Descent
 
 之前的梯度下降：
@@ -147,7 +143,7 @@ $$
 x_i^{(n)} := \displaystyle\frac{x_i^{(n)} - m_i}{\sigma_i}
 $$
 
-这玩意概率论绝对讲过，standardized random variable，我最开始以为会是 $\mathcal{N}(0,1)$，这是错的，只有正态分布 standardized 之后才是标准正态分布。
+这玩意概率论绝对讲过，standardized random variable，均值为 0，方差为 1。我最开始以为会是 $\mathcal{N}(0,1)$，这是错的，只有正态分布 standardized 之后才是标准正态分布。
 
 ## Theory of Gradient Descent
 
