@@ -171,7 +171,7 @@ $$
   - 加入相关 factor 会很好, 但是加入不相关的就又 overfitting
     - <img src="https://raw.githubusercontent.com/Wind2375like/I-m_Ghost/main/img/202205092235650.png" alt="image-20220509223502745" style="zoom:50%;" />
 - Regularization
-  - $L = \displaystyle\sum_{i=1}^{n} \hat{y}^{(i)}-(b+\bm{w}\bm{x})^{2}+\lambda\left\vert |\bm{w} |\right\vert ^{2} $
+  - $L = \displaystyle\sum_{i=1}^{n} (\hat{y}^{(i)}-(b+\bm{w}\bm{x}))^{2}+\lambda\left\vert |\bm{w} |\right\vert ^{2} $
   - 这样会让 $w_i$ 越小越好, 这样在 $\bm{x}$ 变化下才不会敏感, 曲线变得平滑, 防止 noise 影响训练.
   - $\lambda$ 越大, train loss 增大, 因为影响模型去拟合 train data. test loss 最开始会变小, 因为去除了噪声. 但是后面又会烂掉, 因为太平滑模型太简单了.
   - 为什么不考虑 bias? 因为 bias 仅仅是偏移量, 对曲线上下平移, 不影响曲线复杂度的.
