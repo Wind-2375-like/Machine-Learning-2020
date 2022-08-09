@@ -161,6 +161,8 @@ train_loader = DataLoader(train_set, batch_size=args.batch_size, shuffle=True)
 val_loader = DataLoader(val_set, batch_size=args.batch_size, shuffle=False)
 ```
 
+可以看到这里对输入图片做了些基本处理. 前面 resize 成相同大小, 为了减少 convolution 时同一 pattern 的 scale 不同的问题. normalization 是帮助训练. 随机翻转应该是为了增加模型鲁棒性(?)
+
 ## CNN Model
 
 使用 add_module 更方便设计网络结构. 需要研究明白这几个 module.
