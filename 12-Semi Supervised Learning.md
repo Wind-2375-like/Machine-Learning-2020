@@ -8,7 +8,7 @@
     2. [MITPress- SemiSupervised Learning.pdf (acad.bg) page 57-59](http://www.acad.bg/ebook/ml/MITPress-%20SemiSupervised%20Learning.pdf)
     3. [【机器学习】EM——期望最大（非常详细） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/78311644)
     4. [Self-Training with Selection-by-Rejection (utdallas.edu)](https://personal.utdallas.edu/~mxk055100/publications/icdm-self.pdf)
-    
+
 3. **Extra videos:** None
 
 ---

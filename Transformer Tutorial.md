@@ -7,3 +7,7 @@ dataset 自定义
 - `__generate_examples()`: 比较重要, 具体怎么生成 examples
 
 [Loading a Dataset — datasets 1.2.1 documentation (huggingface.co)](https://huggingface.co/docs/datasets/v1.2.1/loading_datasets.html)
+
+
+
+[浅析Transformer训练时并行问题 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/368592551)
