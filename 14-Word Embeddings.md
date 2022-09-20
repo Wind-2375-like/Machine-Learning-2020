@@ -1,5 +1,7 @@
 # Word Embeddings (Word2vec)
 
+> reference的内容为唯一教程，接下来的内容仅为本人的课后感悟，对他人或无法起到任何指导作用。
+
 ## Reference
 
 1. **Course website and video:** [ML 2020 Spring (ntu.edu.tw)](https://speech.ee.ntu.edu.tw/~hylee/ml/2020-spring.php)

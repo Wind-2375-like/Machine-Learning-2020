@@ -507,10 +507,6 @@ def plot_loss_curve(train_loss, dev_loss, train_acc, dev_acc):
 plot_loss_curve(train_loss, dev_loss, train_acc, dev_acc)
 ```
 
-![png](hw3_files/hw3_16_0.png)
-
-![png](hw3_files/hw3_16_1.png)
-
 ```python
 def test(model, test_loader, args):
 

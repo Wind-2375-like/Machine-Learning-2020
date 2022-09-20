@@ -37,7 +37,7 @@ RNN 有很多变种.
 
 <img alt="图 3" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/99f7cf179849a7d9c9b4536e73a52e0cc552dba3b6cf9e07d1ed0e4097ad3153.png" />  
 
-老师很贴心地举了个 example, 咱们可以试试, 如果改变 input sequence 的顺序, output sequence 将会发生变化. 这样, NN 的输出不仅取决于这一时刻的输入, 也取决于前面时刻了.
+可以用 RNN 生成一个word、sentence、图片等等。
 
 用公式表述的话就是这样:
 
@@ -97,8 +97,8 @@ RNN 中最有名的变体当属 LSTM 了. RNN 中只有一个输入, 里面装�
 
 我强烈建议过一下这个人体 LSTM, 我感觉没人会具体手算一个 LSTM 并且说明其作用的... 不得不佩服台大授课的敬业态度...
 
-|  <img alt="图 13" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/3beee445714fb0c045d4bdfa8342d4f302fdda45d79c28eb4b85a0778d639ab3.png" style="zoom:50%;" />  |   <img alt="图 14" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/3de7b21ba2ace1a2c98bf81d13d72e9fa32574c3a97da571295a032c24205f00.png" style="zoom:50%;" />  |
-| ---- | ---- |
+| <img alt="图 13" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/3beee445714fb0c045d4bdfa8342d4f302fdda45d79c28eb4b85a0778d639ab3.png" style="zoom:50%;" /> | <img alt="图 14" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/3de7b21ba2ace1a2c98bf81d13d72e9fa32574c3a97da571295a032c24205f00.png" style="zoom:50%;" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 左面这张图代表了 Lecturer 希望 LSTM 做到的事, 右面的网络代表了他如何设定 weight 使 LSTM 完成他想要做到的事情. 这样我们对 LSTM 在干什么一目了然.
 

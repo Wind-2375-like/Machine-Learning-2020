@@ -14,3 +14,5 @@ Notes are written in Chinese. I modified others' notes to be my notes for I don'
 ## Content
 
 [TODO]
+
+2022/9/20: 暂时发现学不下去了, 因为新学期开始了... ML, ADA, DIS, Topics in NLP, 任务量很是饱满......
