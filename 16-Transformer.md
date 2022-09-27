@@ -9,7 +9,7 @@
     1. [浅析Transformer训练时并行问题 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/368592551)
     1. [Transformer家族4 -- 通用性优化（Universal-Transformer） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/178710534)
     1. [nlp - What is the positional encoding in the transformer model? - Data Science Stack Exchange](https://datascience.stackexchange.com/questions/51065/what-is-the-positional-encoding-in-the-transformer-model)
-    1. [deep learning - Can the decoder in a transformer model be parallelized like the encoder? - Artificial Intelligence Stack Exchange](https://ai.stackexchange.com/questions/12490/can-the-decoder-in-a-transformer-model-be-parallelized-like-the-encoder#:~:text=on this post.-,Can the decoder in a transformer model be parallelized like,sequences during a testing phase).)
+    1. [deep learning - Can the decoder in a transformer model be parallelized like the encoder? - Artificial Intelligence Stack Exchange](https://ai.stackexchange.com/questions/12490/can-the-decoder-in-a-transformer-model-be-parallelized-like-the-encoder#:~:text=) on this post.-,Can the decoder in a transformer model be parallelized like,sequences during a testing phase).)
 
 ---
 
