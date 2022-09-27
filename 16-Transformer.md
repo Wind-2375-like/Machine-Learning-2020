@@ -128,7 +128,7 @@ feed forward 就是个普通 NN, 起了个 position wise 就是只针对一个�
 
 <img alt="图 1" src="https://cdn.jsdelivr.net/gh/Wind2375like/I-m_Ghost/img/ccf0742f3c9f0e730d7a307d4f8cc54d30c5902e75b3d4f7c763b68fafde9a1f.png" style="zoom:50%;" />
 
-接下来通过另一个 multi-head attention 接 add and norm. 这里这个 multi-head attention 的 q 跟 k 是 encoder 同一层对应 token 的 q 跟 k. 而不是用前面 masked multi-head attention 的 output 生成的. 不然 encoder 和 decoder 不就完全独立了, encoder 的信息就传不到 decoder 了.
+接下来通过另一个 multi-head attention 接 add and norm. 这里这个 multi-head attention 的 k 跟 v 是 encoder 的 output, 而 q 来自 decoder 前一 mask self attention sublayer 的 output. 这样 decoder 的每个位置都可以和 encoder 的 input sequence 的所有位置 attention, 传统的 encoder-decoder 结构也是这样, decoder 的每一个位置需要用到 encoder 所有位置的信息. 这就是为什么这一 sublayer 并不是 mask 的.
 
 最后还是 feed-forward 接 add & norm. 然后叠 n 层. decoder 最终的输出经过线性变换+softmax就可以 classify 了. 这就是 transformer 的结构.
 
